@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 253);
+}
+
+/* Navbar */
+.bg-brown {
+    background-color: #361701;
+}
+
+#navbutton {
+    color: #b7b7b7;
+}
+
+/* Navbar Search button */
+.bg-beige {
+    background-color: beige;
+}
+
+.bg-beige2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-beige2:hover {
+    background-color: #585858;
+    border: 1px solid black;
+}
+
+/* Carousel */
+#carouselExampleCaptions h1{
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#address{
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#carouselExampleCaptions h5{
+    font-size: 23px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#carouselExampleCaptions p{
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Menu cards */
+.beverage-card, .dessert-card {
+    background-color: #f4dac8;
+}
+
+.card img {
+    transition: transform 0.2s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact section */
+#contacts {
+    background-color: #361701;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+#contacts h6 {
+    font-size: 8px;
+    margin-bottom: 3px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2px;
+    margin: 0;
+}
+
+.contact-item {
+    flex: 1;
+    max-width: 150px;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.contact-item img {
+    width: 25%;
+    height: auto;
+    margin-bottom: 5px;
+    transition: transform 0.2s;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.contact-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1px 0;
+    padding-top: 0%;
+    background-color: #361701;
+    color: white;
+    margin: 0%;
+    font-size: 12px;
+}
